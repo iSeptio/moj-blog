@@ -44,6 +44,11 @@ export default {
 
 
 <style lang="scss">
+$color1: #608060;
+$color2: #3D3D34;
+$color3: #f3f3e5;
+$color4: #cebe9f;
+$color5: #3f3f3f;
 .blog {
   padding: 0 20px;
   max-width: 600px;

@@ -1,14 +1,19 @@
 <template>
   <div v-editable="blok" class="feature util__flex-eq">
+
     <img :src="resizedIcon" class="feature__icon">
+
     <h1>{{ blok.name }}</h1>
     <div class="feature__description">
       {{ blok.description }}
     </div>
+
   </div>
+  
 </template>
 
 <script>
+
 export default {
   computed: {
     resizedIcon () {
@@ -18,11 +23,13 @@ export default {
       return null
     }
   },
-  props: ['blok']
+  props: ['blok'],
+
 }
 </script>
 
 <style lang="scss">
+
 .feature {
   text-align: center;
   padding: 30px 10px 100px;

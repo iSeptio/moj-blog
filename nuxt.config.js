@@ -1,6 +1,6 @@
 module.exports = {
   modules: [
-    ['storyblok-nuxt', {accessToken: 'TKznhYJW5Eg5QsDKwAr8oQtt', cacheProvider: 'memory'}]
+    ['storyblok-nuxt', {accessToken: 'nFn1VQy0r8azr47fxP4EFQtt', cacheProvider: 'memory'}]
   ],
   plugins: [
     '~/plugins/components',
